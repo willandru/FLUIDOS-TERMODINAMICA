@@ -1,5 +1,5 @@
 
-clc; clear
+clc; clear; format SHORTE;
 %% Un cilindro contiene oxígeno a una presión de 2,00 atm y 300 K. El
 % volumen es de 4,00 L. Suponga que el O 2 se puede tratar como gas ideal,
 % y que se somete a los siguientes procesos:
@@ -70,7 +70,7 @@ Qc=Q12
 %D) Determine la eciencia de este dispositivo como máquina térmica y
 % compárela con la de una máquina de ciclo de Carnot que opera entre las 
 % mismas temperaturas mínima y máxima de 250 K y 450 K.
-n= Wt/Qc * 100
+n_maquina= Wt/Qc * 100
 
 N_carnot= (1- 250/450)*100
 
