@@ -9,6 +9,24 @@
 
 h_Everest = 8850 ; % m
 
-sys d_mar;
 
-d_everst= 0.35* d_mar;
+
+d_mar= 1.29;  %kg/m^3
+
+p_mar = 1 ;% atm;
+
+
+Pa= 1.013e5; %atm
+
+d_Heverest= 0.35* d_mar ; % kg/m³
+
+
+
+p_alaska= 0.4774 * p_mar ; % atm
+
+
+p_EVE= M * g * h_Everest
+
+p_alaska = M * g * h_alaska
+
+p_mar = M * g * h 
